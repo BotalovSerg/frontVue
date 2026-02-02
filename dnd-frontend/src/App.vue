@@ -1,5 +1,6 @@
 <template>
   <div class="app-layout">
+    <Header></Header>
     <main class="main-content">
       <div class="container">
         <div class="card header">
@@ -28,6 +29,7 @@
 <script>
 import AppNewsVue from './AppNews.vue'
 import Footer from './components/Footer.vue'
+import Header from './components/Header.vue'
 
 export default {
   data() {
@@ -67,6 +69,7 @@ export default {
   components: {
     'app-news': AppNewsVue,
     Footer,
+    Header,
   },
 }
 </script>
